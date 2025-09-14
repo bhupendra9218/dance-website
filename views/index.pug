@@ -1,0 +1,58 @@
+doctype html
+html
+  head
+    title My Dance  Website
+    link(rel="stylesheet", href="/static/style.css")
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/logo.png" alt="logo")
+                |HDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+
+
+    script(src="/static/index.js")
+
+
+    section#introSection 
+        div Welcome to God-Like's Dance Academy 
+        div.small Eat Sleep Dance Repeat
+
+    section#missonSection
+       h2 Our Mission
+       div.card
+           h3 Dance Perfection
+           div.card-box
+                div.card-img 
+                    img(src="/static/1.png")
+                div.card-content
+                    p This is the best dance acedemy of the universe    
+       div.card
+           h3 Dance The Way You Like
+           div.card-box
+                div.card-img 
+                    img(src="/static/2.png")
+                div.card-content
+                    p This is the best dance acedemy of the universe 
+       div.card
+           h3 Expert Teaching
+           div.card-box
+                div.card-img 
+                    img(src="/static/3.png")
+                div.card-content
+                    p This is the best dance acedemy of the universe 
+    section#sponsorsSection     
+        h2 Our Sponosors
+        div#sponsors
+            img(src="/static/apple.jpg", alt="Sponsors Image", class="spImage")
+            img(src="/static/ms.png", alt="Sponsors Image", class="spImage")
+            img(src="/static/hp.png", alt="Sponsors Image", class="spImage")
+            img(src="/static/skype.png", alt="Sponsors Image", class="spImage")
+
+    footer#footer 
+        p Copyright &copy; #{currentYear} God'lDanceAcedemy. All rights reserved.
